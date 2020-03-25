@@ -1,0 +1,105 @@
+
+body {
+  background-color: black;
+}
+
+#board {
+  width: 550px;
+  height: 550px;
+  border: 5px solid white;
+  background-color: black;
+  position: relative;
+}
+
+#paddleLeft {
+  background-color: #0DFE6C;
+  width: 25px;
+  height: 125px;
+  position: absolute;
+  left: 25px;
+  top: 213px;
+}
+
+#paddleRight {
+  background-color: #FE0D9F;
+  width: 25px;
+  height: 125px;
+  position: absolute;
+  left: 500px;
+  top: 213px;
+}
+
+#ball {
+  background-color: #fef086;
+  width: 50px;
+  border-radius: 25px;
+  height: 50px;
+  position: absolute;
+  left: 250px;
+  top: 250px;
+}
+#title {
+  height: 150px;
+  width: 280px; 
+  left: 600px;
+  top: 0px;
+  padding-bottom: 40px; 
+  position: absolute; 
+  background-color: white;
+  margin: auto;
+  vertical-align: middle;  
+  text-align: center; 
+  font-family: 'Gruppo';font-size: 45px; 
+}
+#gameNumber {
+  height: 75px;
+  width: 280px; 
+  left: 600px;
+  top: 210px;
+  padding-bottom: 0px; 
+  position: absolute; 
+  background-color: white;
+  margin: auto;
+  vertical-align: middle;  
+  text-align: center; 
+  font-family: 'Gruppo';font-size: 15px;
+}
+ #rally {
+  height: 75px;
+  width: 280px; 
+  left: 600px;
+  top: 305px;
+  padding-bottom: 0px; 
+  position: absolute; 
+  background-color: white;
+  margin: auto;
+  vertical-align: middle;  
+  text-align: center; 
+  font-family: 'Gruppo';font-size: 15px;
+}
+#leftPoints {
+  height: 150px;
+  width: 130px; 
+  left: 600px;
+  top: 405px;
+  padding-bottom: 0px; 
+  position: absolute; 
+  background-color: #FFAEE0;
+  margin: auto;
+  vertical-align: middle;  
+  text-align: center; 
+  font-family: 'Gruppo';font-size: 15px;
+}
+#rightPoints {
+  height: 150px;
+  width: 130px; 
+  left: 750px;
+  top: 405px;
+  padding-bottom: 0px; 
+  position: absolute; 
+  background-color: #A7FFCA;
+  margin: auto;
+  vertical-align: middle;  
+  text-align: center; 
+  font-family: 'Gruppo';font-size: 15px;
+}

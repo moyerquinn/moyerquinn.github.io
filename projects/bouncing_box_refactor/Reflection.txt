@@ -1,0 +1,7 @@
+How is the jQuery file being loaded into this project: direct download or Content Delivery Network (CDN)?
+
+    CDN, because it is downloading from another outside source
+
+If you load the index.js file before the jquery file our program doesn't work. Why? Open the preview in a new tab and look at the console to help you find out why.
+
+    The contents of the javascript file are jQuery resources, so the program doesn't know how to handle them before the jQuery file is established

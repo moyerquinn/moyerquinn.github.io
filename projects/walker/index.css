@@ -1,0 +1,21 @@
+body {
+  background-color: coral;
+}
+
+#board {
+  width: 500px;
+  height: 500px;
+  border: 1px darkred;
+  background-color: black;
+  position: relative;
+}
+
+#gameItem {
+  background-color: aqua;
+  width: 75px;
+  height: 75px;
+  position: absolute;
+  left: 100px;
+  top: 100px;
+  border-radius: 50px;
+}

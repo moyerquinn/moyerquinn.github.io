@@ -59,23 +59,23 @@
             
             /* portfolio styles (This content was removed due to redundancy and personal prefrence, 
             but the css is kept just incase I need it*/
-            #portfolio {
+            .portfolio {
                 list-style-type: none;
                 padding-left: 0;
             }
             
-            #portfolio li {
+            .portfolio li {
                 background: #fff;
                 padding: 10px;
                 border-radius: 10px;
                 margin-bottom: 10px;
             }
             
-            #portfolio li:hover {
+            .portfolio li:hover {
                 background: #eee;
             } 
             
-            #portfolio a {
+            .portfolio a {
                 text-decoration: none;
                 color: #454545;
             }
@@ -101,13 +101,23 @@
             </nav>
             <main>
                 <div class="content">
-                        <div class="games">
+                    <div class="games">
                         <h1> Games I've Created! </h1>
-                            <ul>
-                                <li> Operation Spark Platformer </li>
-                                <li> Bouncing Box </li>
-                            </ul>
-                        </div>
+                    
+                        <h3> Fundamentals of Software Development </h3>
+                        <ul class="portfolio">
+                            <li> <a href="projects/bouncing-box/index.html"></a>Bouncing Box</li>
+                            <li> <a href="projects/platformer/index.html">Operation Spark Platformer</a></li>
+                            <li> <a href="projects/circularity/index.html">Circularity </a></li>
+                            <li> <a href="projects/runtime/index.html">Runtime</a></li>
+                        </ul>
+                        <h3> Advanced Software Development </h3>
+                        <ul class="portfolio">    
+                            <li> <a href="projects/bouncing_box_refactor/index.html">Bouncing Box, Refactored</a></li>
+                            <li> <a href="projects/walker/index.html">Walker</a></li>
+                            <li> <a href="projects/ponger/index.html">Pong</a></li>
+                        </ul>
+                    </div>
                 </div>
             </main>
         </div>
