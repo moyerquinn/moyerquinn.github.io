@@ -1,0 +1,66 @@
+
+body {
+  background-color: black;
+}
+
+#board {
+  width: 440px;
+  height: 440px;
+  border: 1px solid white;
+  background-color: black;
+  position: relative;
+}
+
+#head {
+  background-color: teal;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+}
+
+.snake {
+  background-color: teal;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+}
+
+#apple {
+  background-color: red;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+}
+
+#title {
+  height: 130px;
+  width: 600px; 
+  /*left: 480px;*/
+  /*top: 0px;*/
+  padding-bottom: 25px;
+  /*position: absolute; */
+  background-color: white;
+  margin-bottom: 20px;
+  vertical-align: middle;  
+  text-align: center; 
+  font-family: 'Gruppo';font-size: 150px; 
+}
+
+#score {
+  height: 75px;
+  width: 138px; 
+  left: 469px;
+  top: 156px;
+  padding-bottom: 0px; 
+  position: absolute; 
+  background-color: white;
+  /*margin: auto;*/
+  vertical-align: middle;  
+  text-align: center; 
+  font-family: 'Gruppo';font-size: 40px;
+}
+
+.body {
+  background-color: blue;
+  position: absolute;
+}

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       
+        <title> Foreign Word Discoverer </title>
+        
+        <style>
+    body {
+        background: rgb(192, 221, 207);
+        color: rgb(45, 45, 45);
+        padding: 10px;
+        font-family: arial;
+    }
+    header {
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+    #all-contents {
+        max-width: 800px;
+        margin: auto;
+    }
+
+    /* navigation menu */
+    nav {
+        background: rgb(6, 174, 213);
+        margin: 0 auto;
+        display: flex;
+        padding: 10px;
+    }
+    nav header {
+        display: flex;
+        align-items: center;
+        color: rgb(255, 255, 255);
+        flex: 1;
+    }
+    nav ul {
+        list-style-image: none;
+    }
+    nav li {
+        display: inline-block;
+        padding: 0 10px;
+    }
+    nav a {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    /* main container area beneath menu */
+    main {
+        background: rgb(245, 238, 219);
+        display: flex;
+    }
+    .sidebar {
+        margin-right: 25px;
+        padding: 10px;
+    }
+    .sidebar img {
+        width: 200px;
+    }
+    .content {
+        flex: 1;
+        padding: 15px;
+    }
+    .interests header {
+        font-size: 1.25em;
+    }
+    
+    .gallery {
+      margin: 5px;
+      border: 1px solid #ccc;
+      float: left;
+      width: 180px;
+    }
+
+    .gallery:hover {
+      border: 1px solid #777;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: auto;
+    }
+
+    .desc {
+      padding: 15px;
+      text-align: center;
+    }
+
+</style>
+    </head>
+
+    <body>
+        <div id="all-contents">
+            <nav>
+                <header> Discover New Words! </header>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                </ul>
+            </nav>
+            <main>
+                <div class="content">
+                    <div intro>
+                        <h1> Find New Words from Around the World! </h1>
+                        <p> Use this foreign word generator to find a word and its definition from a non-English language. </p>
+                        <button type="button" onclick="getNum()"> Find a Word! </button>
+                    </div>
+                    
+                    <div script>
+                        <script>
+                            function getNum() {
+                                var word = Math.ceil(Math.random() * 9)
+                                writeWord(convertNum(word));
+                            }
+                            
+                            function writeWord(selector) {
+                                var element = document.getElementById("id01");
+                                element.innerHTML = selector.word;
+                                var element1 = document.getElementById("id02");
+                                element1.innerHTML = selector.lang;
+                                var element2 = document.getElementById("id03");
+                                element2.innerHTML = selector.definition;
+                            }
+                            
+                            // All words then bloat functions to be listed below
+                            
+                            var a = {word:"Mamihlapinatapei", lang:"from Yaghan", definition:"The wordless meaningful look shared by two people who desire to initiate something, but who are both too scared to."};
+                            var b = {word:"Saudade", lang:"from Portugese", definition:"A deep emotional state of nolstalgic or profound melancholic longing for an absent something or someone that one cares for and/or loves."};
+                            var c = {word:"Kummerspeck", lang:"from German", definition:"Refers to weight gained due to excessive eating that stems from being sad."};
+                            var d = {word:"Mencolek", lang:"from Indonesian", definition:"Tapping someone on the opposite shoulder to get them to look in the wrong direction."};
+                            var e = {word:"Pena ajena", lang:"from Spanish", definition:"To be embarrassed for someone else or because of someone else's actions."};
+                            var f = {word:"Schlemiel", lang:"from Yiddish", definition:"An inept or naturally clumsy person."};
+                            var g = {word:"Schadenfreude", lang:"from German", definition:"The joy you feel at another's pain, like laughing when someone trips."};
+                            var h = {word:"Razbliuto", lang:"from Russian", definition:"Refers to the feelings you have towards someone you once loved but no longer do."};
+                            var i = {word:"Koi No Yokan", lang:"from Japanese", definition:"The feeling of meeting someone and knowing that it is inevitable that you will fall in love with them."};
+                            
+                            //var 0 = {word:"", lang:"", definition:""};
+                            
+                            function convertNum(num) {
+                                if (num === 1) {
+                                    return a;
+                                } else if (num === 2) {
+                                    return b;
+                                } else if (num === 3) {
+                                    return c;
+                                } else if (num === 4) {
+                                    return d;
+                                } else if (num === 5) {
+                                    return e;
+                                } else if (num === 6) {
+                                    return f;
+                                } else if (num === 7) {
+                                    return g;
+                                } else if (num === 8) {
+                                    return h;
+                                } else if (num === 9) {
+                                    return i;
+                                }
+                            }
+                            
+                        </script>
+                    </div>
+                    <div result>
+                        <h2 id="id01"> </h2>
+                        <h3 id="id02"> </h3>
+                        <h4 id="id03"> </h4>
+                    </div>
+                </div>
+            </main>
+            
+        </div>
+    </body>
+</html>

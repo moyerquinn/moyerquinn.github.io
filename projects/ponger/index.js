@@ -170,7 +170,7 @@ $(document).ready(
   
   function reflect(ball) {
     if (ball.speedX >= 10 || ball.speedX <= -10) {
-      ball.speedX *= -.5
+      ball.speedX *= -1;
     } else {
       ball.speedX *= -1.1;
     }

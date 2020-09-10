@@ -17,7 +17,39 @@ $(document).ready(function() {
 	//////////////////////////////////////////////////////////////////
 	/////////////////// Core Logic ///////////////////////////////////
 	//////////////////////////////////////////////////////////////////
-
+    
+    /*
+    Josh what are you doing in my code??? Josh what are you doing in my code??? 
+    Josh what are you doing in my code??? Josh what are you doing in my code??? 
+    Josh what are you doing in my code??? Josh what are you doing in my code??? 
+    Josh what are you doing in my code??? Josh what are you doing in my code??? 
+    Josh what are you doing in my code??? Josh what are you doing in my code??? 
+    Josh what are you doing in my code??? Josh what are you doing in my code??? 
+    Josh what are you doing in my code??? Josh what are you doing in my code??? 
+    Josh what are you doing in my code??? Josh what are you doing in my code??? 
+    Josh what are you doing in my code??? Josh what are you doing in my code??? 
+    Josh what are you doing in my code??? Josh what are you doing in my code??? 
+    Josh what are you doing in my code??? Josh what are you doing in my code??? 
+    Josh what are you doing in my code??? Josh what are you doing in my code??? 
+    Josh what are you doing in my code??? Josh what are you doing in my code??? 
+    Josh what are you doing in my code??? Josh what are you doing in my code??? 
+    Josh what are you doing in my code??? Josh what are you doing in my code??? 
+    Josh what are you doing in my code??? Josh what are you doing in my code??? 
+    Josh what are you doing in my code??? Josh what are you doing in my code??? 
+    Josh what are you doing in my code??? Josh what are you doing in my code??? 
+    Josh what are you doing in my code??? Josh what are you doing in my code??? 
+    Josh what are you doing in my code??? Josh what are you doing in my code??? 
+    Josh what are you doing in my code??? Josh what are you doing in my code??? 
+    Josh what are you doing in my code??? Josh what are you doing in my code??? 
+    Josh what are you doing in my code??? Josh what are you doing in my code??? 
+    Josh what are you doing in my code??? Josh what are you doing in my code??? 
+    Josh what are you doing in my code??? Josh what are you doing in my code??? 
+    Josh what are you doing in my code??? Josh what are you doing in my code??? 
+    Josh what are you doing in my code??? Josh what are you doing in my code??? 
+    Josh what are you doing in my code??? Josh what are you doing in my code??? 
+    Josh what are you doing in my code??? Josh what are you doing in my code??? 
+    */
+    
 	/** 
 	Variable declarations/initialization should be in the initialization section
 	*/

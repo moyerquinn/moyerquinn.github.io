@@ -1,0 +1,15 @@
+#board {
+    position: relative;
+    border: 1px solid black;
+    width: 400px;
+    height: 400px;
+}
+
+.ball {
+    position: absolute;
+    background-color: coral;
+    opacity: 0.8;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+}
